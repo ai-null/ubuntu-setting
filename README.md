@@ -1,4 +1,4 @@
-# ubuntu-setting
+# ubuntu 20.04 setting
 my personal setting acer-sf314 running on amd ryzen 5 5500U
 
 ___
