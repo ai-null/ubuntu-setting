@@ -9,6 +9,7 @@ try running kernel check using ```uname -r```, I tried upgrade kernel to **5.14.
 go to ```tools->preference```, open video tab change the output to **X11 video output** then restart vlc.
 
 ### show current branch in terminal
+paste to ```~/.bashrc```
 ```bash
 parse_git_branch() {
  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
