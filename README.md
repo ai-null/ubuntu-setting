@@ -3,7 +3,8 @@ my personal setting acer-sf314 running on amd ryzen 5 5500U
 
 ___
 ### WIFI adapter not found
-try running kernel check using ```uname -r```, I tried upgrade kernel to **5.14.10-051410-generic** and it worked.
+try running kernel check using ```uname -r```, Ubuntu 20.04 default kernel is 5.4 which is not support my machine(?) atm
+<br />I tried upgrade kernel to **5.14.10-051410-generic** and it worked.
 
 ### VLC video striped
 go to ```tools->preference```, open video tab change the output to **X11 video output** then restart vlc.
