@@ -6,6 +6,9 @@ ___
 try running kernel check using ```uname -r```, Ubuntu 20.04 default kernel is 5.4 which is not support my machine(?) atm
 <br />I tried upgrade kernel to **5.14.10-051410-generic** and it worked.
 
+### failed amdgpu to start after login
+check the log with ```sudo dmesg -l err,warn```, search issues marked with displayed adapter in the log
+
 ### VLC video striped
 go to ```tools->preference```, open video tab change the output to **X11 video output** then restart vlc.
 
