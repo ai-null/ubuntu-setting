@@ -21,3 +21,6 @@ parse_git_branch() {
 
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] \$ '
 ```
+
+### thumbnail not showing
+https://askubuntu.com/questions/1034595/thumbnails-not-showing-in-video-in-ubuntu-18-04
